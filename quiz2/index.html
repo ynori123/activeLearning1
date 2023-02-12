@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="ja">
+	<head>
+		<meta charset="UTF-8">
+		<title>サイバー攻撃体験</title>
+		<script src="program.js">
+		</script>
+		<link rel="stylesheet" href="style.css">
+	</head>
+	<body>
+		<header>
+			<div>
+				<a href="../start">
+					<h4>
+						アクティブラーニング成果
+					</h4>
+				</a>
+			</div>
+			<nav>
+				<ul>
+					<li>
+						<a href="../questionnaire">
+							アンケート
+						</a>
+					</li>
+				</ul>
+			</nav>
+		</header>
+		<p>Q2：人気の有料ゲームが今だけ無料でダウンロード可能とのメッセージがSNSで流れていた。どうしますか？<br>選択肢</p>
+		<div>
+			<a href="#" onclick="submit('A')">
+				A.すぐにクリックしてゲームアプリをインストールする
+			</a>
+		</div>
+		<div>
+			<a href="#" onclick="submit('B')">
+				B.正規のアプリマーケットで検索してからインストールする
+			</a>
+		</div>
+		<div>
+			<a href="#" onclick="submit('C')">
+				C.友達にも情報をシェアしてあげる
+			</a>
+		</div>
+		<div id="explain" hidden>
+			<span id="result"></span><br><p>スマホでは、人気のアプリと称して不正アプリ（スマホウイルス）をインストールさせる手口があります。万一不正アプリを入れてしまうと、端末を操作できなくなったり、端末内の情報を盗み出されたりする恐れがあります。アプリを入れるときは必ず、Google PlayやAppStore、各携帯電話会社が運営するアプリストアを利用し、ダウンロード前に開発元やアプリの評価も確認しましょう。友人に情報を共有する場合も、信頼性を確認してからにしましょう。</p>
+			<a class="btn-orange" id="next" href="../quiz3/">
+				次の問題へ
+			</a>
+		</div>
+	</body>
+</html>

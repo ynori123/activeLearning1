@@ -1,0 +1,140 @@
+* {
+    margin: 0px;
+    padding: 0px;
+  }
+  html, body {
+    height: 100%;
+    width: 100%;
+    background-color: var(--default_nomal);  
+  }
+  h1 {
+    color: var(--text_header);
+    font-size : 20px;
+    text-align: left;
+  }
+  
+  .headerText {
+    padding: 0 0 0 20px;
+  }
+  header {
+    height : 40px;
+    top: 0;
+    left: 0;
+    right: 0;
+    z-index: 999;
+    position: sticky;
+    width: 100%;
+    background:linear-gradient(180deg,var(--default_nomal) 90%,var(--default_dark) 10%);
+    display: flex;
+    align-items: center;
+    font-family: "Yu Gothic";
+  }
+  a{
+    color: var(--text_blight);
+    text-decoration: none;
+    font-weight: bold;
+  }
+  a:hover{
+    color: var(--text_bblight);
+  }
+  nav {
+    margin : 0 0 0 auto;
+    padding: 20px;
+    color: var(--text_blight);
+  }
+  
+  ul {
+    list-style: none;
+    display: flex;
+    color: var(--text_blight);
+  }
+  li {
+    list-style: none;
+    font-size: 18px;
+    
+  }
+  .space{
+    height: 50px; 
+  }
+  
+  *,
+  *:before,
+  *:after {
+    -webkit-box-sizing: inherit;
+    box-sizing: inherit;
+  }
+  
+  html {
+    -webkit-box-sizing: border-box;
+    box-sizing: border-box;
+    font-size: 62.5%;
+  }
+  
+  .btn,
+  a.btn,
+  button.btn {
+    font-size: 1.6rem;
+    font-family: "Yu Gothic";
+    font-weight: 700;
+    line-height: 1.5;
+    position: relative;
+    display: inline-block;
+    padding: 1rem 4rem;
+    cursor: pointer;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+    -webkit-transition: all 0.3s;
+    transition: all 0.3s;
+    text-align: center;
+    vertical-align: middle;
+    text-decoration: none;
+    letter-spacing: 0.1em;
+    border-radius: 0.5rem;
+    
+  }
+  button{
+    color: var(--text_default);
+  }
+  .btn--orange,
+  a.btn--orange {
+    color: #fff;
+    background-color: var(--button_blight);
+  }
+  
+  .btn--orange:hover,
+  a.btn--orange:hover {
+    color: #fff;
+    background: var(--button_dark);
+  }
+  main {
+    padding: 0 0 0 10px;
+    height: 90%;
+    color: var(--text_default);
+    text-align: center;
+  }
+  
+  p {
+    font-size: 18px;
+    font-family: "Yu Gothic";
+  }
+  footer {
+    background-color: var(--default_dark);
+    height: 100px;
+    width: 100%;
+    margin: 0px;
+    position: absolute;
+    color: var(--text_default);
+  }
+  
+  :root {
+    --default_dark : #0e1525;
+    --default_nomal : #1c2333;
+    --text_default : white;
+    --text_header : #b2ffff;
+    --text_bblight : #f9c9ca;
+    --text_blight : #f0b670;
+    --button_blight : #0053a6;
+    --button_dark : #0079f2;
+  }

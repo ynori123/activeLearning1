@@ -1,0 +1,16 @@
+@charset "utf-8";
+body {
+	background-color: red;
+	background: repeating-linear-gradient(-45deg, yellow, yellow 5px, black 5px, black 10px);
+	color: white;
+	font-size: 30px;
+	padding: 5px;
+}
+div.border {
+	background-color: red;
+	padding: 20px;
+}
+h1 {
+	color:white;
+	font-size: 45px;
+}

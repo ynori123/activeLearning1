@@ -1,0 +1,133 @@
+@charset "utf-8";
+:root {
+	--default_dark : #0e1525;
+	--default_nomal : #1c2333;
+	--text_default : white;
+	--text_header : #b2ffff;
+	--text_bblight : #fec9ca;
+	--text_blight : #f0b670;
+	--button_blight : #0053a6;
+	--button_dark : #0079f2;
+}
+* {
+	margin: 0px;
+	padding: 0px;
+}
+body {
+	height: 100%;
+	width: 100%;
+	background-color: var(--default_nomal);
+}
+div {
+	padding: 0 0 0 20px;
+}
+header {
+	height : 40px;
+	top: 0;
+	left: 0;
+	right: 0;
+	z-index: 999;
+	position: sticky;
+	width: 100%;
+	background: linear-gradient(180deg, var(--default_nomal) 90%, var(--default_dark) 10%);
+	display: flex;
+	align-items: center;
+	font-family: "Yu Gothic";
+	color: var(--text_blight);
+}
+h1 {
+	font-size : 85px;
+	text-align: center;
+	color: #FF0000;
+}
+h2 {
+	font-size : 30px;
+	text-align: center;
+	color: white;
+}
+h3 {
+	text-align: center;
+}
+h4 {
+	color: var(--text_header);
+	font-size : 20px;
+	text-align: left;
+	
+}
+a {
+	color: var(--text_blight);
+	text-decoration: none;
+	font-weight: bold;
+}
+a:hover {
+	color: var(--text_bblight);
+}
+a.btn-orange {
+	padding: 0.5em;
+	margin: 10px 0;
+	display: block;
+	color: #fff !important;
+	background: var(--button_dark);
+	text-decoration: none;
+	font-weight: bold;
+	font-size:16px;
+	border-radius: 3px;
+	text-align: center;
+	text-decoration: none !important;
+}
+a.btn-orange:after {
+	content: "";
+	display: inline-block;
+	width: 18px;
+	height: 18px;
+	margin: -3px 0 0 5px;
+	background: url("画像URL") no-repeat;
+	background-size: contain;
+	vertical-align: middle;
+}
+a.btn-orange:hover {
+	background: var(--button_blight);
+}
+@media screen and (min-width: 768px) {
+	a.btn-orange {
+		padding: 0.5em 2em;
+		margin: 10px auto;
+		font-size: 20px;
+		display: inline-block;
+	}
+	a.btn-orange:before {
+		margin: -3px 0 0 10px;
+	}
+}
+nav {
+	margin : 0 0 0 auto;
+	padding: 20px;
+	color: var(--text_blight);
+}
+ul {
+	list-style: none;
+	display: flex;
+	color: var(--text_blight);
+}
+li {
+	list-style: none;
+	font-size: 18px;
+	color: var(--text_blight);
+}
+.writeup1{
+	font-size: 22px;
+	color: var(--text_blight);
+	font-family: "Yu Gothic";
+}
+
+.writeup2 {
+	color: var(--text_default);
+	font-family: "Yu Gothic";
+}
+img{
+	width: 50%;
+	height: 50%;
+}
+.image {
+	text-align: center;
+}
